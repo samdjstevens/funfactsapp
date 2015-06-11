@@ -16,6 +16,9 @@ class ViewController: UIViewController {
     // Factbook struct instance
     let factBook = FactBook()
     
+    // ColorWheel struct instance
+    let colorWheel = ColorWheel()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -35,6 +38,9 @@ class ViewController: UIViewController {
 
     // Show a random funfact on button click
     @IBAction func showFunFact() {
+        
+        // Swap the view background colour to a random colour
+        view.backgroundColor = colorWheel.randomColor()
         
         funFactLabel.text = factBook.randomFact()
         
