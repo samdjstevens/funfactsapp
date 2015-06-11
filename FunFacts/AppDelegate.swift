@@ -16,6 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Set the status bar to be light app wide (depreciated in iOS 9)
+        application.setStatusBarStyle(UIStatusBarStyle.LightContent, animated: false)
+        
         return true
     }
 
