@@ -14,6 +14,7 @@
 		38F2914E1B29FD7300A12914 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38F2914C1B29FD7300A12914 /* LaunchScreen.storyboard */; };
 		38F291591B29FD7300A12914 /* FunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F291581B29FD7300A12914 /* FunFactsTests.swift */; };
 		38F291641B29FD7300A12914 /* FunFactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F291631B29FD7300A12914 /* FunFactsUITests.swift */; };
+		38F291721B2A076700A12914 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F291711B2A076700A12914 /* FactBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		38F2915F1B29FD7300A12914 /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F291631B29FD7300A12914 /* FunFactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsUITests.swift; sourceTree = "<group>"; };
 		38F291651B29FD7300A12914 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38F291711B2A076700A12914 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				38F291431B29FD7300A12914 /* AppDelegate.swift */,
 				38F291451B29FD7300A12914 /* ViewController.swift */,
+				38F291711B2A076700A12914 /* FactBook.swift */,
 				38F291471B29FD7300A12914 /* Main.storyboard */,
 				38F2914A1B29FD7300A12914 /* Assets.xcassets */,
 				38F2914C1B29FD7300A12914 /* LaunchScreen.storyboard */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F291721B2A076700A12914 /* FactBook.swift in Sources */,
 				38F291461B29FD7300A12914 /* ViewController.swift in Sources */,
 				38F291441B29FD7300A12914 /* AppDelegate.swift in Sources */,
 			);
